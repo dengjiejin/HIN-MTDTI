@@ -31,6 +31,14 @@ $ python ./processdata.py --dataset enzyme --crossval 1 --start_epoch 0 --end_ep
 ## Training and Testing
 Both training and testing programs can be implemented by scripts [`train.py`](train.py)
 
+## Multi-task learning
+```
+    # if DTI task
+    Loss = nn.BCELoss()
+    # if DTA task
+    Loss = nn.MSELoss()
+```
+
 
 
 
