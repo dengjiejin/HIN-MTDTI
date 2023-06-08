@@ -16,6 +16,9 @@ original data contains protein vectors, drug fingerprints and interaction labels
 ## Data preprocessing
 The preprocess file is [`processdata.py`](processdata.py). A directory `preporcess/` will be generated ,which contains 
 preprocess adjacent matrix and train/val interaction index.
+```
+$ python ./processdata.py --dataset enzyme --crossval 1 --start_epoch 0 --end_epoch 2000 --common_neighbor 3 --adj_norm True --data_root ./data
+```
 
 ## Training and Testing
 Both training and testing programs can be implemented by scripts [`train.py`](train.py)
