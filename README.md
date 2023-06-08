@@ -21,7 +21,6 @@ files:
   "pssm_arr": a protein vector with 220 length,
   "drug_arr": a drug fingerprint with 881 length,
   "int_ids": [p_id, d_id, 0 or 1], interaction label
-  "folds": 5 folds crossvalication, decided with fold they belong to
 ```
 
 ```
